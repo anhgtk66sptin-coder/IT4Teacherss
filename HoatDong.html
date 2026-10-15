@@ -8,18 +8,18 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="icon" type="image/x-icon" href="/images/fchoise.jpg">
-    <link rel="stylesheet" href="/CSS/styles.css" />
-    <link rel="stylesheet" href="/CSS/tuyenthanhvien.css" />
-    <link rel="stylesheet" href="/CSS/foot.css"/>
-    <link rel="stylesheet" href="/CSS/DoiMau.css">
-    <link rel="stylesheet" href="/CSS/search.css"/>
+    <link rel="icon" type="image/x-icon" href="fchoise.jpg">
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="HoatDong.css" />
+    <link rel="stylesheet" href="foot.css"/>
+    <link rel="stylesheet" href="DoiMau.css">
+    <link rel="stylesheet" href="search.css"/>
   </head>
   <body>
     <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
     <header class="navbar">
       <a href="index.html" class="nav-brand">
-        <img src="/images/fchoise.jpg" alt="Logo" class="logo-img" />
+        <img src="fchoise.jpg" alt="Logo" class="logo-img" />
         <span class="logo-text">IT4Teacher</span>
       </a>
       <ul class="nav-links">
@@ -35,7 +35,7 @@
         <input
             type="text"
             id="searchMember"
-            placeholder="🔍 Tìm nội dung...">
+            placeholder="🔍 Tìm hoạt động...">
 
         <button id="themeToggle">
             <i class="fa-solid fa-moon"></i>
@@ -48,7 +48,7 @@
     </header>
     <aside class="mobile-menu" id="mobileMenu">
       <div class="mobile-menu-header">
-        <img src="/images/fchoise.jpg" alt="Logo" class="logo-img" />
+        <img src="fchoise.jpg" alt="Logo" class="logo-img" />
         <button class="close-btn" onclick="toggleMenu()">
           <i class="fa-solid fa-xmark"></i>
         </button>
@@ -62,27 +62,103 @@
         <li><a href="HoiDap.html">HỎI ĐÁP</a></li>
       </ul>
     </aside>
-    <section class="tuyen-dung">
+    <section class="activities-section">
       <div class="container">
-        <div class="content">
-          <h2>Tuyển thành viên</h2>
-          <p class="mo-ta">
-            IT4Teachers đang mở đơn tuyển thành viên năm 2026.
+        <div class="section-header">
+          <h2 class="section-title">
+            <i class="fa-solid fa-users"></i> HOẠT ĐỘNG CỦA THÀNH VIÊN
+          </h2>
+          <p class="section-subtitle">
+            Học hỏi – Thực hành – Kết nối – Phát triển
           </p>
-          <p>
-            <strong>Đối tượng:</strong> Sinh viên các ngành Công Nghệ Thông Tin,
-             Sư phạm Tin học và các bạn trẻ có đam mê với lập trình.
-          </p>
-          <p>
-            <strong>Thời gian ứng tuyển:</strong> 10/09/2026 - 24/09/2026
-          </p>
-          <div class="buttons">
-            <a href="https://forms.gle/EobEHZ3daLaqxah69" target="_blank" class="btn btn-ung-tuyen">ỨNG TUYỂN</a>
-            <a href="/HTML/Xemthem.html" class="btn btn-xem-them">XEM THÊM</a>
-          </div>
         </div>
-        <div class="image-box">
-          <img src="/images/htvpt.jpg" alt="CLB Lập trình PTIT">
+        <div class="activity-grid">
+          <div class="activity-card">
+            <div class="card-image">
+              <img
+                src="HSG.jpg"
+                alt="Workshop công nghệ"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h3 class="card-title">Thành Tựu Nổi Bật</h3>
+                <p class="card-text">
+                  Kết quả từ sự nỗ lực không ngừng nghỉ của bản thân, 
+                  cùng sự hướng dẫn tận tình từ thầy cô và sự đồng hành, cổ vũ từ bạn bè.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="activity-card">
+            <div class="card-image">
+              <img
+                src="htvpt.jpg"
+                alt="Cùng nhau phát triển"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h3 class="card-title">Hợp Tác & Phát Triển</h3>
+                <p class="card-text">
+                  Chủ động thực hiện các dự án thực tế, tích cực chia sẻ ý 
+                  tưởng và phối hợp giải quyết bài toán khó để tạo ra các sản phẩm giá trị.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="activity-card">
+            <div class="card-image">
+              <img
+                src="HUEICT.jpg"
+                alt="Chinh phục thử thách"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h3 class="card-title">Bứt Phá Giới Hạn</h3>
+                <p class="card-text">
+                  Thử sức tại sân chơi lập trình Hue-ICT Challenge nhằm giao lưu, 
+                  cọ xát kinh nghiệm và nâng cao tư duy thuật toán cùng các bạn trẻ tài năng.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="activity-card">
+            <div class="card-image">
+              <img
+                src="CHT.jpg"
+                alt="Chinh phục thử thách"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h3 class="card-title">Bứt Phá Giới Hạn</h3>
+                <p class="card-text">
+                  Thành tích ghi nhận sự sáng tạo và nỗ lực trong nghiên cứu, 
+                  thực hiện mô hình dự thi, đạt Giải B tại Cuộc thi Sáng tạo Thanh thiếu niên, 
+                  Nhi đồng huyện Điện Biên Đông năm 2024.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="activity-card">
+            <div class="card-image">
+              <img
+                src="anhnhom1.jpg"
+                alt="Gắn kết thành viên"
+              />
+            </div>
+            <div class="card-body">
+              <div class="card-content">
+                <h3 class="card-title">Tinh Thần Đồng Đội</h3>
+                <p class="card-text">
+                  Sẵn sàng tương trợ và đồng hành cùng các thành viên qua các hoạt động ngoại khóa,
+                  xây dựng môi trường gắn kết và cùng nhau vượt qua thách thức.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -91,7 +167,7 @@
         <div class="footer-top">
           <div class="footer-col brand-col">
             <div class="footer-logo">
-              <img src="/images/fchoise.jpg" alt="Logo" class="logo-img" />
+              <img src="fchoise.jpg" alt="Logo" class="logo-img" />
               <div class="logo-text">
                 <h2>Website câu lạc bộ Tin học</h2>
                 <p>Trường ĐH Tây Bắc</p>
@@ -171,9 +247,10 @@
         </button>
       </div>
     </footer>
-    <script src="/JAVASCRIPT/script.js"></script>
-    <script src="/JAVASCRIPT/dieuhuong.js"></script>
-    <script src="/JAVASCRIPT/footer.js"></script>
-    <script src="/JAVASCRIPT/DoiDaoDienVaTimKiemThanhVien.js"></script>
+    <script src="script.js"></script>
+    <script src="dieuhuong.js"></script>
+    <script src="footer.js"></script>
+    <script src="hoatdong.js"></script>
+    <script src="DoiDaoDienVaTimKiemThanhVien.js"></script>
   </body>
 </html>
